@@ -8,21 +8,40 @@ const Home = () => {
         <div>
             <div className='home'>
                 <div className='text'>
-                    <h1 className='text-6xl '>Your C language larning book.</h1>
-                    <h1 className='text-5xl'>Your C best larning book.</h1>
-                    <p className='text-2xl'>It is C programming book.It was written by Jhanker Mahabub.It is one of the most populer book for Bangladeshi student,who is begginer in C programming.</p>
+                    <h1 className='text-6xl '>Your Comfortable gaming chair is here.</h1>
+                    <h1 className='text-5xl'>The best gaming chair in market.</h1>
+                    <p className='text-2xl'>Buy this gaming chair at astoundingly low prices without compromising quality. Logistics Service. Most Popular. Trade Assurance. Production Monitoring.</p>
                     <button className='btn'>Live Demo</button>
                 </div>
                 <div className='Image'>
-                    <img src="https://sg-test-11.slatic.net/other/roc/88f9f5a92922ac0871ed9bf832a0a620.jpg" alt="" />
+                    <img src="https://assets-prd.ignimgs.com/2021/05/27/61heqhmkrhl-ac-sl1500-1622155579013.jpg" alt="" />
                 </div>
             </div>
             <div>
                 <p className='text-5xl mt-5'>Customer Reviews (3)</p>
                 <div className='grid'>
-                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2_gxn45Duq5eYfTgjEYpmcs8rbmXGGudJyPefTfE4uG-BUWHDrausIWpleHx6-OaxaPU&usqp=CAU" alt="" />
-                    <img src="https://ds.rokomari.store/rokomari110/ProductNew20190903/260X372/00ea58560_112222.jpg" alt="" />
-                    <img src="https://1.bp.blogspot.com/-iXTnE5XT1dY/XyZAVSmMWHI/AAAAAAAAcL0/2ODQRxz3bDQ56g2cgcGJul3CWMxZKOiSQCLcBGAsYHQ/s1600/Programming%2Ber%2BChouddogoshthi%2Bby%2BJhankar%2BMahbub%2B-%2BPDF%2BBangla%2BProgramming%2BBooks.jpg" alt="" /></div>
+
+                    <div>
+                    <img src="https://mir-s3-cdn-cf.behance.net/project_modules/2800_opt_1/35af6a41332353.57a1ce913e889.jpg" alt="" />
+                    
+                    <p>Mike stivenson</p>
+                    <p>Comment : Best deal at low price</p>
+                    <p>Ratting: 6 star</p>
+                    </div>
+                    <div>
+                    <img src="https://live.staticflickr.com/5252/5403292396_0804de9bcf_b.jpg" alt="" />
+                    <p>Lana Rose</p>
+                    <p>Comment : I bought this chair for my son, he loves it.</p>
+                    <p>Ratting: 5 star</p>
+                    </div>
+                    <div>
+                    <img src="https://pbs.twimg.com/media/BduTxWnIUAAKT_5.jpg" alt="" />
+                    <p>Jon the don</p>
+                    <p>Comment : Cool product , loved it</p>
+                    <p>Ratting: 5 star</p>
+                    </div>
+
+                    </div>
                 <button className='button'>See All Reviews</button>
             </div>
         </div>

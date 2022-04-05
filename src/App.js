@@ -1,10 +1,29 @@
-import logo from './logo.svg';
+import { Route, Routes } from 'react-router-dom';
 import './App.css';
+import About from './Components/About/About';
+import Blogs from './Components/Blogs/Blogs';
+import Dasboard from './Components/Dasboard/Dasboard';
+
+
+import Home from './Components/Home/Home';
+import Navbar from './Components/Navbar/Navbar';
+
+import NotFound from './Components/NotFound/NotFound';
+import Revews from './Components/Revews/Revews';
 
 function App() {
   return (
     <div className="App">
-      <h1 className="text-6xl">My name is Meherab Hossen .</h1>
+      <Navbar></Navbar>
+      <Routes>
+        <Route path="/home" element={<Home></Home>}></Route>
+        <Route path="/revews" element={<Revews></Revews>}></Route>
+        <Route path="/dasboard" element={<Dasboard></Dasboard>}></Route>
+        <Route path="/blogs" element={<Blogs></Blogs>}></Route>
+        <Route path="/about" element={<About></About>}></Route>
+        <Route path="*" element={<NotFound></NotFound>}></Route>
+      </Routes>
+
     </div>
   );
 }
